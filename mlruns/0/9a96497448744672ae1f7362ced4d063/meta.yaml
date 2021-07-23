@@ -1,0 +1,15 @@
+artifact_uri: ./mlruns/0/9a96497448744672ae1f7362ced4d063/artifacts
+end_time: 1627083412571
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+name: ''
+run_id: 9a96497448744672ae1f7362ced4d063
+run_uuid: 9a96497448744672ae1f7362ced4d063
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1627083412404
+status: 4
+tags: []
+user_id: Heavy
