@@ -1,0 +1,6 @@
+[core]
+    remote = myremote
+['remote "storage"']
+    url = s3://mybucket/dvcstore
+['remote "myremote"']
+    url = C:/Users/euelf/AppData/Local/Temp/dvcstore
