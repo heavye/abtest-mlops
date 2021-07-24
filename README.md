@@ -13,13 +13,11 @@
 * XGBoost
 
 
-## Knowledge implemented in the project:
-* Data exploration
-* Hypothesis testing
-* Machine learning 
-* Hyperparameter tuning
-* Model comparison & selection
-* experiment analysis
+## The following tests can be found in the folder notebooks
+* Data exploration ==> notebooks/EDA.ipynb
+* Classical AB test ==> notebooks/AB_test.ipynb
+* Sequential Test ==> notebooks/Sequential_Test.ipynb
+* Machine learning ==> notebooks/ML AB Test.ipynb
 
 ## Data
 - The BIO data for this project is a “Yes” and “No” response of online users to the following question
@@ -47,3 +45,4 @@ Q: Do you know the brand SmartAd?
 * **yes:** 1 if the user chooses the “Yes” radio button for the BIO questionnaire.
 
 * **no:** 1 if the user chooses the “No” radio button for the BIO questionnaire.
+
