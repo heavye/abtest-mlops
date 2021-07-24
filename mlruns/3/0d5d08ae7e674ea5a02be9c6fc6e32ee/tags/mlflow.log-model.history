@@ -1,0 +1,1 @@
+[{"run_id": "0d5d08ae7e674ea5a02be9c6fc6e32ee", "artifact_path": "model", "utc_time_created": "2021-07-24 18:35:00.234068", "flavors": {"python_function": {"model_path": "model.pkl", "loader_module": "mlflow.sklearn", "python_version": "3.9.0", "env": "conda.yaml"}, "sklearn": {"pickled_model": "model.pkl", "sklearn_version": "0.24.2", "serialization_format": "cloudpickle"}}}]

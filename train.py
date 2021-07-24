@@ -25,10 +25,10 @@ logger = logging.getLogger(__name__)
 # Get url from DVC
 import dvc.api
 
-path = 'data/mydata.csv.csv'
+path = 'data/AdSmartABdata.csv'
 # repo ='https://github.com/heavye/abtest-mlops'
 repo ='C:/Users/euelf/Desktop/10_AC_CHALLENGES/Week_2/AB_Hypothesis_Testing/abtest-mlops'
-version = 'ver2'
+version = 'version4'
 
 data_url = dvc.api.get_url(
     path = path,
@@ -36,7 +36,7 @@ data_url = dvc.api.get_url(
     rev = version
 )
 
-mlflow.set_experiment('demoo')
+mlflow.set_experiment('MLabTest')
 
 def eval_metrics(actual, pred):
     rmse = np.sqrt(mean_squared_error(actual, pred))
@@ -48,7 +48,7 @@ if __name__ == "__main__":
     warnings.filterwarnings("ignore")
     np.random.seed(40)
 
-    # Read the wine-quality csv file from remote repositery
+    # Read the AdSmartABdata csv file from remote repositery
     data = pd.read_csv(data_url, sep=",")
 
     
