@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/euelf/Desktop/10_AC_CHALLENGES/Week_2/AB_Hypothesis_Testing/abtest-mlops/mlruns/1/a22181745acd48f6bafce1151a6bf514/artifacts
+end_time: 1627123589410
+entry_point_name: ''
+experiment_id: '1'
+lifecycle_stage: active
+name: ''
+run_id: a22181745acd48f6bafce1151a6bf514
+run_uuid: a22181745acd48f6bafce1151a6bf514
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1627123589202
+status: 3
+tags: []
+user_id: Heavy
