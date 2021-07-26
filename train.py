@@ -36,7 +36,7 @@ data_url = dvc.api.get_url(
     rev = version
 )
 
-mlflow.set_experiment('MLabTest')
+mlflow.set_experiment('hjhhh')
 
 def eval_metrics(actual, pred):
     rmse = np.sqrt(mean_squared_error(actual, pred))
